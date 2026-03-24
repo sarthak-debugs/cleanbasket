@@ -441,6 +441,19 @@ section {
   background: var(--blue-pale);
 }
 
+.badge-free {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: var(--green);
+  color: white;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+
 /* ===== PRICING ===== */
 .pricing-section {
   background: linear-gradient(135deg, #eaf5ff 0%, #f8fbff 60%, #e8f8f0 100%);

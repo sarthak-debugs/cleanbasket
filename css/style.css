@@ -1,11 +1,4 @@
-/* ===========================
-   CLEANBASKET — style.css
-   Friendly & Warm Theme
-=========================== */
 
-/* Google Fonts loaded via HTML */
-
-/* ===== CSS VARIABLES ===== */
 :root {
   --navy:       #0a3d62;
   --navy-light: #1a6496;
@@ -25,7 +18,7 @@
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 
-/* ===== RESET ===== */
+
 *, *::before, *::after {
   margin: 0; padding: 0;
   box-sizing: border-box;
@@ -43,7 +36,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ===== NAVBAR ===== */
 header {
   background: var(--navy);
   position: sticky;
@@ -61,7 +53,7 @@ nav {
   padding: 12px 24px;
 }
 
-/* Logo */
+
 .logo {
   display: flex;
   align-items: center;
@@ -95,7 +87,7 @@ nav {
   vertical-align: super;
 }
 
-/* Nav links */
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -142,7 +134,7 @@ nav {
   box-shadow: 0 6px 20px rgba(37,211,102,0.4) !important;
 }
 
-/* Mobile hamburger */
+
 .menu-toggle {
   display: none;
   background: none;
@@ -153,7 +145,7 @@ nav {
   padding: 4px 8px;
 }
 
-/* ===== HERO ===== */
+
 .hero {
   position: relative;
   min-height: 92vh;
@@ -239,7 +231,7 @@ nav {
   font-weight: 500;
 }
 
-/* Hero CTA buttons */
+
 .hero-cta {
   display: flex;
   gap: 14px;
@@ -286,7 +278,7 @@ nav {
   border-color: white;
 }
 
-/* Hero stats */
+
 .hero-stats {
   display: inline-flex;
   align-items: center;
@@ -322,7 +314,7 @@ nav {
   background: rgba(255,255,255,0.25);
 }
 
-/* Scroll hint */
+
 .hero-scroll-hint {
   position: absolute;
   bottom: 28px;
@@ -339,7 +331,7 @@ nav {
   50%       { transform: translateX(-50%) translateY(8px); }
 }
 
-/* ===== SECTION SHARED ===== */
+
 section {
   padding: 90px 24px;
 }
@@ -377,7 +369,7 @@ section {
   margin-bottom: 50px;
 }
 
-/* ===== SERVICES ===== */
+
 #services {
   background: var(--warm-white);
 }
@@ -454,7 +446,7 @@ section {
   letter-spacing: 1px;
 }
 
-/* ===== PRICING ===== */
+
 .pricing-section {
   background: linear-gradient(135deg, #eaf5ff 0%, #f8fbff 60%, #e8f8f0 100%);
 }
@@ -468,7 +460,7 @@ section {
   align-items: stretch;
 }
 
-/* Price per unit badge */
+
 .price-unit-badge {
   display: inline-block;
   background: var(--blue-pale);
@@ -654,7 +646,7 @@ section {
   font-size: 15px;
 }
 
-/* ===== CONTACT ===== */
+
 #contact {
   background: var(--warm-white);
 }
@@ -761,7 +753,7 @@ section {
   border-radius: 20px;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   background: linear-gradient(135deg, #0a3d62 0%, #1a6496 100%);
   color: white;
@@ -821,7 +813,7 @@ footer {
   color: rgba(255,255,255,0.45);
 }
 
-/* ===== WHATSAPP FLOATING BUTTON ===== */
+
 .whatsapp-float {
   position: fixed;
   bottom: 28px;
@@ -854,7 +846,7 @@ footer {
   50%       { box-shadow: 0 6px 32px rgba(37,211,102,0.7); }
 }
 
-/* Tooltip */
+
 .wa-tooltip {
   position: absolute;
   right: 74px;
@@ -885,7 +877,7 @@ footer {
   opacity: 1;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 900px) {
   .pricing-grid {
     grid-template-columns: 1fr;
@@ -907,7 +899,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* Nav */
+ 
   .menu-toggle {
     display: block;
   }
@@ -933,7 +925,7 @@ footer {
     border-radius: 10px;
   }
 
-  /* Hero */
+ 
   .hero {
     min-height: 88vh;
   }
@@ -943,7 +935,7 @@ footer {
     padding: 12px 20px;
   }
 
-  /* Cards */
+ 
   .card, .contact-card {
     width: calc(50% - 12px);
     min-width: 160px;
@@ -962,7 +954,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  /* Misc */
   .pricing-note {
     flex-direction: column;
     border-radius: 16px;
